@@ -1,0 +1,64 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="28" fill="#F5F5F5"/>
+<rect id="Rectangle 1" x="-21469" y="-13063" width="37798" height="22277" fill="black"/>
+<g id="Landing - Whales" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-453 -106)" fill="#19191A"/>
+<rect id="bluela 2" x="-837" y="-220" width="1334" height="1257.84" fill="url(#paint0_radial_0_1)"/>
+<g id="Mask group">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-60" y="-62" width="407" height="304">
+<g id="Frame 427319432">
+<rect width="407" height="304" transform="translate(-60 -62)" fill="url(#paint1_linear_0_1)"/>
+</g>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Whale Cards">
+<g id="Frame 427319294" filter="url(#filter0_dd_0_1)">
+<rect x="-14" y="-14" width="189.7" height="171.5" rx="8.4" fill="white" shape-rendering="crispEdges"/>
+<rect x="-14" y="-14" width="189.7" height="171.5" rx="8.4" fill="url(#paint2_linear_0_1)" fill-opacity="0.2" shape-rendering="crispEdges"/>
+<g id="bell">
+<path id="Vector" d="M21 9.33301C21 7.47649 20.2625 5.69601 18.9497 4.38326C17.637 3.07051 15.8565 2.33301 14 2.33301C12.1435 2.33301 10.363 3.07051 9.05025 4.38326C7.7375 5.69601 7 7.47649 7 9.33301C7 17.4997 3.5 19.833 3.5 19.833H24.5C24.5 19.833 21 17.4997 21 9.33301Z" fill="#165DFF" fill-opacity="0.1" stroke="black" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M16.0181 24.5C15.813 24.8536 15.5186 25.1471 15.1644 25.3511C14.8102 25.5551 14.4086 25.6625 13.9998 25.6625C13.591 25.6625 13.1894 25.5551 12.8352 25.3511C12.481 25.1471 12.1866 24.8536 11.9814 24.5" stroke="black" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_0_1" x="-21" y="-18.2" width="203.7" height="185.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.7"/>
+<feGaussianBlur stdDeviation="0.35"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2.8"/>
+<feGaussianBlur stdDeviation="3.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_0_1" result="effect2_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_0_1" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-406.5 928) rotate(-61.4392) scale(1143.42 1212.66)">
+<stop offset="0.17212" stop-color="#1FA911" stop-opacity="0.810119"/>
+<stop offset="0.645833" stop-color="#2F15D0"/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_0_1" x1="1.51619e-06" y1="152" x2="407" y2="152" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="0.276042" stop-color="white" stop-opacity="0.921569"/>
+<stop offset="0.53125" stop-color="white"/>
+<stop offset="0.817708" stop-color="white" stop-opacity="0.666667"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1" x1="80.85" y1="33.1625" x2="80.85" y2="256.47" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#165DFF" stop-opacity="0.81"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-453 -106)"/>
+</clipPath>
+</defs>
+</svg>
