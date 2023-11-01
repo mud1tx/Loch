@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "../assets/usedimage.png";
 import MobileLoginPage from "./MobileLoginPage";
+import checkImage from "../assets/checkbox.png";
 
 const Home = () => {
   const [showMyModel, setShowMyModel] = useState(false);
@@ -81,7 +82,7 @@ const Home = () => {
                     <p className="font-inter">save</p>
                   </div>
 
-                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px]">
+                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px] text-xs">
                     We’ll be sending notifications to you here
                   </p>
 
@@ -123,23 +124,12 @@ const Home = () => {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="8"
-                        height="8"
-                        viewBox="0 0 8 8"
-                        fill="none"
-                      >
-                        <path
-                          d="M3.66451 7.32773C3.9696 7.32773 4.20025 7.21058 4.35646 6.97627L7.73564 1.8837C7.79178 1.80071 7.83327 1.71895 7.86012 1.6384C7.88697 1.55542 7.90039 1.47609 7.90039 1.40043C7.90039 1.19053 7.82717 1.01724 7.68073 0.880557C7.53672 0.741436 7.35855 0.671875 7.14621 0.671875C6.99976 0.671875 6.87529 0.701164 6.77278 0.759741C6.67271 0.815878 6.57752 0.913507 6.48721 1.05263L3.64987 5.50817L2.22937 3.80577C2.0756 3.62759 1.88278 3.53851 1.65091 3.53851C1.43369 3.53851 1.2543 3.60807 1.11273 3.74719C0.971172 3.88631 0.900391 4.06082 0.900391 4.27072C0.900391 4.36591 0.915035 4.45622 0.944324 4.54165C0.976053 4.62463 1.03341 4.71128 1.11639 4.80158L3.00185 7.02386C3.17515 7.22644 3.39603 7.32773 3.66451 7.32773Z"
-                          fill="white"
-                        />
-                      </svg>
+                    <div className="h-1 w-6">
+                      <img src={checkImage} alt="checkImage" />
                     </div>
                   </div>
 
-                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px]">
+                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px] text-xs">
                     Notify me when any wallets move more than
                   </p>
                   <div className=" ">
@@ -185,28 +175,35 @@ const Home = () => {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="8"
-                      height="8"
-                      viewBox="0 0 8 8"
-                      fill="none"
-                    >
-                      <path
-                        d="M3.36471 7.32773C3.6698 7.32773 3.90045 7.21058 4.05665 6.97627L7.43584 1.8837C7.49197 1.80071 7.53347 1.71895 7.56031 1.6384C7.58716 1.55542 7.60059 1.47609 7.60059 1.40043C7.60059 1.19053 7.52736 1.01724 7.38092 0.880557C7.23692 0.741436 7.05874 0.671875 6.8464 0.671875C6.69996 0.671875 6.57548 0.701164 6.47297 0.759741C6.3729 0.815878 6.27771 0.913507 6.18741 1.05263L3.35006 5.50817L1.92956 3.80577C1.7758 3.62759 1.58298 3.53851 1.35111 3.53851C1.13388 3.53851 0.954491 3.60807 0.812929 3.74719C0.671367 3.88631 0.600586 4.06082 0.600586 4.27072C0.600586 4.36591 0.61523 4.45622 0.644519 4.54165C0.676248 4.62463 0.733605 4.71128 0.81659 4.80158L2.70205 7.02386C2.87534 7.22644 3.09623 7.32773 3.36471 7.32773Z"
-                        fill="white"
-                      />
-                    </svg>
+                    <div className="h-1 w-6">
+                      <img src={checkImage} alt="checkImage" />
+                    </div>
                   </div>
 
-                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px]">
-                    We’ll be sending notifications to you here
+                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px] text-xs">
+                    Notify me when any wallet dormant for
                   </p>
 
-                  <input
-                    placeholder="hello@gmail.com"
-                    className="rounded-lg border border-1 w-full px-[10px] py-2 border-[#E5E5E6] bg-[#FFF]"
-                  />
+                  <div className=" ">
+                    <button className="border bg-[#c5c5c7be] flex  px-1 py-1 rounded-sm  items-center">
+                      &gt;30 days
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                      >
+                        <path
+                          d="M3.79965 4.59953L6.17719 6.97704C6.24553 7.04538 6.35633 7.04538 6.42467 6.97704L8.80215 4.59953C8.9124 4.48928 8.83435 4.30078 8.67839 4.30078H3.9234C3.76749 4.30078 3.68941 4.48928 3.79965 4.59953Z"
+                          fill="#96979A"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <p className=" w-[129px]  text-[#19191A] font-inter  font-[14px] text-xs">
+                    become active
+                  </p>
                 </div>
               </div>
             </div>
@@ -315,7 +312,7 @@ const Home = () => {
                 Sign Up for
               </h1>
               <h1 className="text-[#B0B1B3] leading-tight md:leading-none text-[32px] md:text-[39px]">
-                exclusive access, 
+                exclusive access,
               </h1>
             </div>
             <form onSubmit={handleSubmit}>
